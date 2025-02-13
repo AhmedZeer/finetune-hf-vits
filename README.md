@@ -134,6 +134,11 @@ In that case you found the right checkpoints, note the repository name and pass 
 
 **Option 2: no training checkpoint is available for your language**
 
+```sh
+python convert_original_discriminator_checkpoint.py --language_code tur --pytorch_dump_folder_path "./tr_model"
+```
+
+
 Let's say that you want have a text-to-speech dataset in Ghari, a Malayo-Polynesian language.
 
 First, find if your language is covered by identifying if there is a MMS checkpoint trained on this language by searching for the language in the [MMS Language Coverage Overview](https://dl.fbaipublicfiles.com/mms/misc/language_coverage_mms.html).
