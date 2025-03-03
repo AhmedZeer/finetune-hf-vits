@@ -1,26 +1,23 @@
 {
-    "project_name": "vits_english_dialect_welsh_female",
+    "project_name": "vits_tr_test",
     "push_to_hub": true,
-    "hub_model_id": "vits_ljs_welsh_female_monospeaker",
+    "hub_model_id": "tr_test",
     "overwrite_output_dir": true,
     "output_dir": "./tmp/vits_finetuned",
 
-    "dataset_name": "ylacombe/english_dialects",    
-    "dataset_config_name": "welsh_female", 
+    "dataset_name": "zamazingo1/2",    
     "audio_column_name": "audio", 
     "text_column_name":"text",
     "train_split_name": "train",
     "eval_split_name": "train",
-    "speaker_id_column_name": "speaker_id",
+    "speaker_id_column_name": "speaker",
     "override_speaker_embeddings": true,
-    "filter_on_speaker_id": 5223,
-
     
     "max_duration_in_seconds": 20,
     "min_duration_in_seconds": 1.0,
     "max_tokens_length": 500,
 
-    "model_name_or_path": "ylacombe/vits-ljs-with-discriminator",
+    "model_name_or_path": "zamazingo1/tur",
 
 
     "preprocessing_num_workers": 4,
