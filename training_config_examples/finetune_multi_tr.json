@@ -13,7 +13,7 @@
     "speaker_id_column_name": "speaker",
     "override_speaker_embeddings": true,
     
-    "max_duration_in_seconds": 20,
+    "max_duration_in_seconds": 40,
     "min_duration_in_seconds": 1.0,
     "max_tokens_length": 500,
 
@@ -26,7 +26,7 @@
     "num_train_epochs": 200,
     "gradient_accumulation_steps": 1,
     "gradient_checkpointing": false,
-    "per_device_train_batch_size": 16,
+    "per_device_train_batch_size": 32,
     "learning_rate": 2e-5,
     "adam_beta1": 0.8,
     "adam_beta2": 0.99,
