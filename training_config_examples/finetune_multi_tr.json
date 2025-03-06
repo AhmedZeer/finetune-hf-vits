@@ -1,9 +1,9 @@
 {
     "project_name": "vits_tr_test",
     "push_to_hub": true,
-    "hub_model_id": "tr_test",
+    "hub_model_id": "tr_test_multi",
     "overwrite_output_dir": true,
-    "output_dir": "./tmp/vits_finetuned",
+    "output_dir": "/content/drive/MyDrive/cbot-tts/trained-models/vits_finetuned_2/multi",
 
     "dataset_name": "zamazingo1/2",    
     "audio_column_name": "audio", 
